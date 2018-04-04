@@ -64,8 +64,8 @@ function scrollStop($dom, limit, zIndex, diff) {
 function handleScroll() {
 	let $overlay = document.querySelector('.js-overlay')
 	let $menu = document.querySelector('.js-header-menu')
-	scrollStop($overlay, document.body.scrollTop, -63, 2, 0)
-	scrollStop($menu, document.body.scrollTop, 1, 3, 0)
+	scrollStop($overlay, -63, 2, 0)
+	scrollStop($menu, 1, 3, 0)
 }
 
 function bindScroll() {
