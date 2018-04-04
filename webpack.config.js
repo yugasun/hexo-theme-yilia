@@ -20,7 +20,7 @@ module.exports = {
     mobile: ["babel-polyfill", "./source-src/js/mobile.js"]
   },
   output: {
-    path: "./source",
+    path: './source/static',
     publicPath: "./",
     filename: "[name].[chunkhash:6].js"
   },
@@ -65,14 +65,14 @@ module.exports = {
       cache: false,
       minify: minifyHTML,
       template: './source-src/script.ejs',
-      filename: '../layout/_partial/script.ejs'
+      filename: '../../layout/_partial/script.ejs'
     }),
     new HtmlWebpackPlugin({
       inject: false,
       cache: false,
       minify: minifyHTML,
       template: './source-src/css.ejs',
-      filename: '../layout/_partial/css.ejs'
+      filename: '../../layout/_partial/css.ejs'
     })
   ],
   watch: true

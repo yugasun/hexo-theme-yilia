@@ -139,7 +139,8 @@ function init() {
 		method: 'get',
 	}).then((res) => {
 		return res.json()
-	}).then((data) => {
+	}).then((res) => {
+    let data = res.posts
 		data.forEach((em) => {
 			em.isShow = true
 		})
