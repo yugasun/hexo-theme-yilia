@@ -63,8 +63,8 @@ top: true
 
 # Miscellaneous
 baidu_analytics: '28d4aea1680535e760d13d954b54eddc'
-# google_analytics: 'UA-85991013-1'
-google_analytics: false
+google_analytics: 'UA-85991013-1'
+google_adsense: 'ca-pub-4485255701448932'
 favicon: /favicon.ico
 
 #你的头像url
